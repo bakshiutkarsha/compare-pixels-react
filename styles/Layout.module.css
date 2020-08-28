@@ -1,0 +1,13 @@
+.section_layout{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+.footer_layout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+}
