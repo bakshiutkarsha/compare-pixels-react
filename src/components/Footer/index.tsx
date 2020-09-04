@@ -21,7 +21,8 @@ import { useRouter } from 'next/router'
   
    if(route.route !== '/iframe') {
     return <div className={FooterStyle.footer_cntr_logo}>
-           <img className={FooterStyle.logo} src='../../../images/group-12@3x.png'/>
+           {/* <img className={FooterStyle.logo} src='../../../images/group-12@3x.png'/> */}
+           <a href="https://www.linkedin.com/in/utkarsha-bakshi-510761a2/">Project by Utkarsha Bakshi</a>
         </div>
   } else {
     return <div className={FooterStyle.footer_cntr}>
@@ -38,10 +39,9 @@ import { useRouter } from 'next/router'
       </div>
 
       <div className={FooterStyle.footer_info_cntr}>
-          <img src='../../../images/pastel-white-bg.png'/>
           <div className={FooterStyle.footer_info}>
               <p>Spot any issues on the website?</p>
-              <p>Share feedback on live websites with Pastel <span>Get started now</span></p>
+              <p>Check the pixel difference between <span>Design and Website</span></p>
           </div>
       </div>
     </div>

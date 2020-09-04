@@ -1,6 +1,6 @@
 .intro_section p:first-child{
     font-size: 42px;
-    color: #222;
+    color: #2e224e;
     font-family: 'Rubik-Bold';
     padding-bottom: 17px;
 }
@@ -54,7 +54,7 @@
 }
 
 .intro_section_image_enabled{
-  background-image: linear-gradient(to bottom, #8855ff, #6536d3);
+  background-image: linear-gradient(to bottom, #716996, #a69fca);
   pointer-events: all;
   cursor: pointer;
 }
@@ -69,7 +69,7 @@
 .intro_button_section_1 .custom_file_upload{
     font-family: 'Rubik-SemiBold';
     padding: 15px 23px;
-    background: #919d9d;
+    background: #7c74a2;
     color: #fff;
     outline: none;
     border: 0;
